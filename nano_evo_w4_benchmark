@@ -1,0 +1,119 @@
+hashcat (v5.1.0-1689-g99574221) starting in benchmark mode...
+
+[33m* Device #1: WARNING! Kernel exec timeout is not disabled.[0m
+[33m             This may cause "CL_OUT_OF_RESOURCES" or related errors.[0m
+[33m             To disable the timeout, see: https://hashcat.net/q/timeoutpatch[0m
+CUDA API (CUDA 10.0)
+====================
+* Device #1: NVIDIA Tegra X1, 1010/3963 MB, 1MCU
+
+Benchmark relevant options:
+===========================
+* --optimized-kernel-enable
+* --workload-profile=4
+
+Hashmode: 0 - MD5
+
+Speed.#1.........:   599.0 MH/s (109.11ms) @ Accel:64 Loops:1024 Thr:1024 Vec:8
+
+Hashmode: 100 - SHA1
+
+Speed.#1.........:   204.3 MH/s (326.65ms) @ Accel:64 Loops:1024 Thr:1024 Vec:1
+
+Hashmode: 1400 - SHA2-256
+
+Speed.#1.........: 74911.7 kH/s (445.01ms) @ Accel:32 Loops:1024 Thr:1024 Vec:1
+
+Hashmode: 1700 - SHA2-512
+
+Speed.#1.........: 25327.2 kH/s (329.49ms) @ Accel:8 Loops:1024 Thr:1024 Vec:1
+
+Hashmode: 22000 - WPA-PBKDF2-PMKID+EAPOL (Iterations: 4095)
+
+Speed.#1.........:    10431 H/s (390.23ms) @ Accel:16 Loops:1024 Thr:1024 Vec:1
+
+Hashmode: 1000 - NTLM
+
+Speed.#1.........:  1039.8 MH/s (62.75ms) @ Accel:64 Loops:1024 Thr:1024 Vec:8
+
+Hashmode: 3000 - LM
+
+Speed.#1.........:   527.9 MH/s (125.44ms) @ Accel:1024 Loops:1024 Thr:64 Vec:1
+
+Hashmode: 5500 - NetNTLMv1 / NetNTLMv1+ESS
+
+Speed.#1.........:   542.2 MH/s (120.30ms) @ Accel:64 Loops:1024 Thr:1024 Vec:2
+
+Hashmode: 5600 - NetNTLMv2
+
+Speed.#1.........: 41247.0 kH/s (404.48ms) @ Accel:16 Loops:1024 Thr:1024 Vec:1
+
+Hashmode: 1500 - descrypt, DES (Unix), Traditional DES
+
+Speed.#1.........: 24114.5 kH/s (343.32ms) @ Accel:8 Loops:1024 Thr:1024 Vec:1
+
+Hashmode: 500 - md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5) (Iterations: 1000)
+
+Speed.#1.........:   256.4 kH/s (251.49ms) @ Accel:64 Loops:1000 Thr:1024 Vec:1
+
+Hashmode: 3200 - bcrypt $2*$, Blowfish (Unix) (Iterations: 32)
+
+Speed.#1.........:      271 H/s (173.20ms) @ Accel:8 Loops:16 Thr:12 Vec:1
+
+Hashmode: 1800 - sha512crypt $6$, SHA512 (Unix) (Iterations: 5000)
+
+Speed.#1.........:     4091 H/s (395.31ms) @ Accel:8 Loops:1024 Thr:1024 Vec:1
+
+Hashmode: 7500 - Kerberos 5, etype 23, AS-REQ Pre-Auth
+
+Speed.#1.........:  4796.7 kH/s (433.44ms) @ Accel:32 Loops:1024 Thr:64 Vec:1
+
+Hashmode: 13100 - Kerberos 5, etype 23, TGS-REP
+
+Speed.#1.........:  4978.6 kH/s (419.88ms) @ Accel:128 Loops:256 Thr:64 Vec:1
+
+Hashmode: 15300 - DPAPI masterkey file v1 (Iterations: 23999)
+
+Speed.#1.........:     1792 H/s (388.05ms) @ Accel:16 Loops:1024 Thr:1024 Vec:1
+
+Hashmode: 15900 - DPAPI masterkey file v2 (Iterations: 12899)
+
+Speed.#1.........:      834 H/s (388.58ms) @ Accel:4 Loops:1024 Thr:1024 Vec:1
+
+Hashmode: 7100 - macOS v10.8+ (PBKDF2-SHA512) (Iterations: 1023)
+
+[33mYour device driver installation is probably broken.[0m
+[33mSee also: https://hashcat.net/faq/wrongdriver[0m
+[33m[0m
+Speed.#1.........:    10323 H/s (384.98ms) @ Accel:64 Loops:63 Thr:1024 Vec:1
+
+Hashmode: 11600 - 7-Zip (Iterations: 16384)
+
+Speed.#1.........:     9571 H/s (421.83ms) @ Accel:16 Loops:4096 Thr:1024 Vec:1
+
+Hashmode: 12500 - RAR3-hp (Iterations: 262144)
+
+Speed.#1.........:     1328 H/s (384.28ms) @ Accel:8 Loops:16384 Thr:1024 Vec:1
+
+Hashmode: 13000 - RAR5 (Iterations: 32799)
+
+Speed.#1.........:      921 H/s (275.54ms) @ Accel:32 Loops:256 Thr:1024 Vec:1
+
+Hashmode: 6211 - TrueCrypt RIPEMD160 + XTS 512 bit (Iterations: 1999)
+
+Speed.#1.........:     6999 H/s (276.46ms) @ Accel:8 Loops:512 Thr:1024 Vec:1
+
+Hashmode: 13400 - KeePass 1 (AES/Twofish) and KeePass 2 (AES) (Iterations: 24569)
+
+Speed.#1.........:      846 H/s (804.95ms) @ Accel:32 Loops:512 Thr:1024 Vec:1
+
+Hashmode: 6800 - LastPass + LastPass sniffed (Iterations: 499)
+
+Speed.#1.........:    58957 H/s (179.39ms) @ Accel:32 Loops:249 Thr:1024 Vec:1
+
+Hashmode: 11300 - Bitcoin/Litecoin wallet.dat (Iterations: 200459)
+
+Speed.#1.........:      114 H/s (363.24ms) @ Accel:64 Loops:128 Thr:1024 Vec:1
+
+Started: Wed Feb 19 10:14:42 2020
+[2KStopped: Wed Feb 19 10:19:09 2020
