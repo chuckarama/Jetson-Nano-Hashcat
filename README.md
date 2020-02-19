@@ -10,7 +10,7 @@ Compile hashcat from source - no pre-compiled binaries available and need hashca
 
 SSD Benchmarks:
 
-1TB Samsung 850 EVO via .5" USB3<->SATA cable  
+1TB Samsung 850 EVO via 6" USB3<->SATA cable  
     Used initrd method to make SSD "bootable":  https://www.jetsonhacks.com/2019/09/17/jetson-nano-run-from-usb-drive/  
     Compile hashcat from source - no pre-compiled binaries available and need hashcats newer cuda-api functionality anyways.  
     Some mild performance gains were made over the SD benchmarks, but nothing of significance.  
@@ -20,7 +20,7 @@ SSD Benchmarks:
     *Noted that 1 cpu core is always bound when tests are being performed.  It switches cpu core with each hash type.  
     
     
-512GB Samasung 860 Pro (NAND) via .5" USB3<->SATA cable  
+512GB Samasung 860 Pro (NAND) via 6" USB3<->SATA cable  
     Used initrd method to make SSD "bootable":  https://www.jetsonhacks.com/2019/09/17/jetson-nano-run-from-usb-drive/  
     Compile hashcat from source - no pre-compiled binaries available and need hashcats newer cuda-api functionality anyways  
     Additional mild performance gains over the 850 EVO for both standard and insane workloads.  
