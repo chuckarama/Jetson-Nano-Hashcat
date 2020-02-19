@@ -13,6 +13,7 @@ SSD Benchmarks:
 1TB Samsung 850 EVO via .5" USB3<->SATA cable
     Used initrd method to make SSD "bootable":  https://www.jetsonhacks.com/2019/09/17/jetson-nano-run-from-usb-drive/
     Compile hashcat from source - no pre-compiled binaries available and need hashcats newer cuda-api functionality anyways.
+    Some mild performance gains were made over the SD benchmarks.
     
 512GB Samasung 860 Pro (NAND) via .5" USB3<->SATA cable
     Used initrd method to make SSD "bootable":  https://www.jetsonhacks.com/2019/09/17/jetson-nano-run-from-usb-drive/
