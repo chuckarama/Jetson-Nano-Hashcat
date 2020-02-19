@@ -1,0 +1,123 @@
+hashcat (v5.1.0-1689-g99574221) starting in benchmark mode...
+
+[33mBenchmarking uses hand-optimized kernel code by default.[0m
+[33mYou can use it in your cracking session by setting the -O option.[0m
+[33mNote: Using optimized kernel code limits the maximum supported password length.[0m
+[33mTo disable the optimized kernel code in benchmark mode, use the -w option.[0m
+[33m[0m
+[33m* Device #1: WARNING! Kernel exec timeout is not disabled.[0m
+[33m             This may cause "CL_OUT_OF_RESOURCES" or related errors.[0m
+[33m             To disable the timeout, see: https://hashcat.net/q/timeoutpatch[0m
+CUDA API (CUDA 10.0)
+====================
+* Device #1: NVIDIA Tegra X1, 2023/3963 MB, 1MCU
+
+Benchmark relevant options:
+===========================
+* --optimized-kernel-enable
+
+Hashmode: 0 - MD5
+
+Speed.#1.........:   566.8 MH/s (27.64ms) @ Accel:64 Loops:256 Thr:1024 Vec:8
+
+Hashmode: 100 - SHA1
+
+Speed.#1.........:   200.3 MH/s (81.95ms) @ Accel:16 Loops:1024 Thr:1024 Vec:1
+
+Hashmode: 1400 - SHA2-256
+
+Speed.#1.........: 72649.8 kH/s (55.91ms) @ Accel:4 Loops:1024 Thr:1024 Vec:1
+
+Hashmode: 1700 - SHA2-512
+
+Speed.#1.........: 24918.3 kH/s (82.62ms) @ Accel:2 Loops:1024 Thr:1024 Vec:1
+
+Hashmode: 22000 - WPA-PBKDF2-PMKID+EAPOL (Iterations: 4095)
+
+Speed.#1.........:    10019 H/s (49.55ms) @ Accel:4 Loops:512 Thr:1024 Vec:1
+
+Hashmode: 1000 - NTLM
+
+Speed.#1.........:  1001.8 MH/s (63.21ms) @ Accel:64 Loops:1024 Thr:1024 Vec:8
+
+Hashmode: 3000 - LM
+
+Speed.#1.........:   500.3 MH/s (63.00ms) @ Accel:512 Loops:1024 Thr:64 Vec:1
+
+Hashmode: 5500 - NetNTLMv1 / NetNTLMv1+ESS
+
+Speed.#1.........:   520.9 MH/s (60.54ms) @ Accel:32 Loops:1024 Thr:1024 Vec:2
+
+Hashmode: 5600 - NetNTLMv2
+
+Speed.#1.........: 39547.5 kH/s (50.97ms) @ Accel:16 Loops:128 Thr:1024 Vec:1
+
+Hashmode: 1500 - descrypt, DES (Unix), Traditional DES
+
+Speed.#1.........: 22793.6 kH/s (86.31ms) @ Accel:2 Loops:1024 Thr:1024 Vec:1
+
+Hashmode: 500 - md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5) (Iterations: 1000)
+
+Speed.#1.........:   228.0 kH/s (63.28ms) @ Accel:16 Loops:1000 Thr:1024 Vec:1
+
+Hashmode: 3200 - bcrypt $2*$, Blowfish (Unix) (Iterations: 32)
+
+Speed.#1.........:      231 H/s (43.80ms) @ Accel:1 Loops:32 Thr:12 Vec:1
+
+Hashmode: 1800 - sha512crypt $6$, SHA512 (Unix) (Iterations: 5000)
+
+Speed.#1.........:     3898 H/s (50.48ms) @ Accel:4 Loops:256 Thr:1024 Vec:1
+
+Hashmode: 7500 - Kerberos 5, etype 23, AS-REQ Pre-Auth
+
+Speed.#1.........:  4134.4 kH/s (59.40ms) @ Accel:8 Loops:512 Thr:64 Vec:1
+
+Hashmode: 13100 - Kerberos 5, etype 23, TGS-REP
+
+Speed.#1.........:  4377.2 kH/s (57.99ms) @ Accel:8 Loops:512 Thr:64 Vec:1
+
+Hashmode: 15300 - DPAPI masterkey file v1 (Iterations: 23999)
+
+Speed.#1.........:     1727 H/s (49.38ms) @ Accel:8 Loops:256 Thr:1024 Vec:1
+
+Hashmode: 15900 - DPAPI masterkey file v2 (Iterations: 12899)
+
+Speed.#1.........:      832 H/s (47.10ms) @ Accel:1 Loops:512 Thr:1024 Vec:1
+
+Hashmode: 7100 - macOS v10.8+ (PBKDF2-SHA512) (Iterations: 1023)
+
+[33mYour device driver installation is probably broken.[0m
+[33mSee also: https://hashcat.net/faq/wrongdriver[0m
+[33m[0m
+Speed.#1.........:    10113 H/s (92.76ms) @ Accel:64 Loops:15 Thr:1024 Vec:1
+
+Hashmode: 11600 - 7-Zip (Iterations: 16384)
+
+Speed.#1.........:     9027 H/s (53.46ms) @ Accel:2 Loops:4096 Thr:1024 Vec:1
+
+Hashmode: 12500 - RAR3-hp (Iterations: 262144)
+
+Speed.#1.........:     1271 H/s (48.68ms) @ Accel:1 Loops:16384 Thr:1024 Vec:1
+
+Hashmode: 13000 - RAR5 (Iterations: 32799)
+
+Speed.#1.........:      900 H/s (69.72ms) @ Accel:16 Loops:128 Thr:1024 Vec:1
+
+Hashmode: 6211 - TrueCrypt RIPEMD160 + XTS 512 bit (Iterations: 1999)
+
+Speed.#1.........:     6844 H/s (69.83ms) @ Accel:4 Loops:256 Thr:1024 Vec:1
+
+Hashmode: 13400 - KeePass 1 (AES/Twofish) and KeePass 2 (AES) (Iterations: 24569)
+
+Speed.#1.........:      841 H/s (201.78ms) @ Accel:8 Loops:512 Thr:1024 Vec:1
+
+Hashmode: 6800 - LastPass + LastPass sniffed (Iterations: 499)
+
+Speed.#1.........:    56130 H/s (54.40ms) @ Accel:16 Loops:124 Thr:1024 Vec:1
+
+Hashmode: 11300 - Bitcoin/Litecoin wallet.dat (Iterations: 200459)
+
+Speed.#1.........:      113 H/s (91.28ms) @ Accel:8 Loops:256 Thr:1024 Vec:1
+
+Started: Wed Feb 19 12:01:53 2020
+[2KStopped: Wed Feb 19 12:05:13 2020
